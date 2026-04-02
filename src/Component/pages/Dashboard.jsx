@@ -85,7 +85,6 @@ function Dashboard() {
     },
   };
 
-  // Skeleton Components
   const StatsSkeleton = () => (
     <div className="bg-white dark:bg-gray-900 rounded-xl p-5 border border-gray-200 dark:border-gray-700 shadow-sm">
       <div className="flex items-center space-x-4">
