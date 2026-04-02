@@ -211,7 +211,7 @@ function Home() {
                 {step.desc}
               </p>
               {index < 4 && (
-                <div className="w-1/4 h-1 bg-gradient-to-r from-blue-600 to-cyan-500 md:block hidden mt-4" />
+                <div className="w-1/4 h-1 bg-gradient-to-r from-blue-600 to-cyan-500npm ru md:block hidden mt-4" />
               )}
             </motion.div>
           ))}
