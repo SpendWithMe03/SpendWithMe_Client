@@ -253,6 +253,14 @@ function Home() {
                 "https://www.linkedin.com/in/harmin-kalathiya-03058a297",
               github: "https://github.com/harminK",
             },
+            {
+              initials: "OM",
+              name: "Om Dhameliya",
+              role: "Frontend Developer",
+              desc: "Specialized in building responsive, interactive, and high-performance user interfaces using React.js, Tailwind CSS, and modern frontend technologies with a focus on user experience.",
+              linkedin: "https://www.linkedin.com/in/om-dhameliya-8b55a2290",
+              github: "https://github.com/omdhameliya13",
+            },
           ].map((dev) => (
             <motion.div
               key={dev.initials}
