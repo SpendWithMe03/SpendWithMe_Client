@@ -256,8 +256,8 @@ function Home() {
             {
               initials: "OM",
               name: "Om Dhameliya",
-              role: "Frontend Developer",
-              desc: "Specialized in building responsive, interactive, and high-performance user interfaces using React.js, Tailwind CSS, and modern frontend technologies with a focus on user experience.",
+              role: "Full Stack Developer",
+              desc: "Skilled in both frontend and backend development. Experienced in React.js, Node.js, and building robust API, database solutions and responsive web applications.",
               linkedin: "https://www.linkedin.com/in/om-dhameliya-8b55a2290",
               github: "https://github.com/omdhameliya13",
             },
