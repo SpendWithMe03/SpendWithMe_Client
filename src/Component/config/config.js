@@ -4,9 +4,7 @@ const header = {
   withCredentials: true,
   headers: {
     "Content-Type": "application/json",
-   
   },
-  
 };
 
 const CRYPTO_SECRET_KEY = import.meta.env.VITE_CRYPTO_SECRET_KEY;

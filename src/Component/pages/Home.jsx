@@ -10,6 +10,7 @@ import {
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import DarkMode from "./Dashboardcompo/Darkmode";
+import AIAvatarChatPage from "../gemini/AIAvatarWidget";
 
 function Home() {
   const navigate = useNavigate();
@@ -43,6 +44,7 @@ function Home() {
       <header className="flex w-full shadow-md h-14 sm:h-16 md:h-20 items-center sticky top-0 bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm z-50 transition-colors duration-200 px-3 sm:px-5 md:px-8">
         <div className="flex items-center space-x-2 sm:space-x-3">
           <HandCoins className="w-5 h-5 sm:w-7 sm:h-7 md:w-8 md:h-8 text-blue-600" />
+
           <p className="text-lg sm:text-xl md:text-2xl lg:text-2xl font-bold bg-gradient-to-r from-blue-600 to-blue-400 bg-clip-text text-transparent truncate">
             SpendWithMe
           </p>
@@ -232,7 +234,7 @@ function Home() {
         </motion.h2>
         <motion.div
           variants={staggerContainer}
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8 mt-12"
+          className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-8 mt-12"
         >
           {[
             {
@@ -325,6 +327,7 @@ function Home() {
           </button>
         </div>
       </motion.section>
+      <AIAvatarChatPage />
     </div>
   );
 }
