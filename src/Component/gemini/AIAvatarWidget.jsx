@@ -92,7 +92,6 @@ export default function AIAvatarWidget() {
         },
       ]);
     } catch (error) {
-      console.log("Error while reaching Gemini:", error);
       toast.error(
         error?.response?.data?.message ||
           "Something went wrong while reaching Gemini.",

@@ -24,3 +24,20 @@
 .ring-pulse {
   animation: ring-pulse 2s ease-in-out infinite;
 }
+
+
+
+/* Hide scrollbar for Chrome, Safari, and Edge */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for Firefox */
+html {
+  scrollbar-width: none;
+}
+
+/* Hide scrollbar for Internet Explorer and old Edge */
+body {
+  -ms-overflow-style: none;
+}
