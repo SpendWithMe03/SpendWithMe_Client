@@ -1,9 +1,9 @@
 import { useState, useEffect, createContext, useContext } from 'react';
 
-// Create a context for the message system
+
 const MessageContext = createContext(null);
 
-// Types of messages
+
 export const MESSAGE_TYPES = {
   ERROR: 'error',
   SUCCESS: 'success',
