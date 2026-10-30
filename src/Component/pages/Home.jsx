@@ -10,7 +10,6 @@ import {
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import DarkMode from "./Dashboardcompo/Darkmode";
-import AIAvatarChatPage from "../gemini/AIAvatarWidget";
 
 function Home() {
   const navigate = useNavigate();
@@ -327,7 +326,6 @@ function Home() {
           </button>
         </div>
       </motion.section>
-      <AIAvatarChatPage />
     </div>
   );
 }
