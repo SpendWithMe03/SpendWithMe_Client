@@ -8,7 +8,7 @@ import { server } from "../config/config.js";
 import { decodeReqData, encodeResData } from "../../utils/helper/index.js";
 import { useMessages } from './MessageSystem.jsx';
 import { expenseCategoriesList } from "../../utils/helper/enums/index.js";
-
+import AIAvatarChatPage from "../gemini/AIAvatarWidget.jsx";
 
 const Budget = () => {
   const user_token = localStorage.getItem("user_token");
@@ -564,6 +564,8 @@ const Budget = () => {
           </div>
         )}
       </div>
+            <AIAvatarChatPage />
+
     </div>
   );
 };

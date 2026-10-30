@@ -5,7 +5,7 @@ import {  Tooltip,  PieChart, Pie, Cell, ResponsiveContainer,Legend } from 'rech
 import Navbar from "./Dashboardcompo/Navbar";
 import DarkMode from "./Dashboardcompo/Darkmode";
 import {  useNavigate } from 'react-router-dom';
-
+import AIAvatarChatPage from "../gemini/AIAvatarWidget.jsx";
 import axios from 'axios';
 import { server } from "../config/config.js";
 import { encodeResData, decodeReqData } from "../../utils/helper/index.js";
@@ -442,6 +442,8 @@ function Group() {
         </div>
       )}
     </main>
+          <AIAvatarChatPage />
+
   </div>
   );
 }
